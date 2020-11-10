@@ -17,9 +17,10 @@
 		071423822534C38A00E7487A /* Demo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071423812534C38A00E7487A /* Demo1Tests.m */; };
 		0714238D2534C38A00E7487A /* Demo1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0714238C2534C38A00E7487A /* Demo1UITests.m */; };
 		071423A22534CFEE00E7487A /* PhoneCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 071423A12534CFEE00E7487A /* PhoneCaller.m */; };
+		0756115E2559A0E100EA8A41 /* Lesson4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756115C2559A0E100EA8A41 /* Lesson4ViewController.swift */; };
+		0756116A2559A45D00EA8A41 /* DemoOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075611692559A45D00EA8A41 /* DemoOperations.swift */; };
 		076C06962550636B006B0670 /* Lesson3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C06952550636B006B0670 /* Lesson3ViewController.m */; };
 		076C069F255063E6006B0670 /* Lesson2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C069E255063E6006B0670 /* Lesson2ViewController.m */; };
-		076C06BF25506615006B0670 /* Lesson4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C06BE25506615006B0670 /* Lesson4ViewController.m */; };
 		0787B642253DF4D100DF56E4 /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787B641253DF4D100DF56E4 /* DemoModel.m */; };
 		0787B64E253E069B00DF56E4 /* DemoModel+Display.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787B64D253E069B00DF56E4 /* DemoModel+Display.m */; };
 		0787B654253E079800DF56E4 /* NSString+Display.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787B653253E079800DF56E4 /* NSString+Display.m */; };
@@ -65,12 +66,12 @@
 		0714238E2534C38A00E7487A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		071423A02534CFEE00E7487A /* PhoneCaller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneCaller.h; sourceTree = "<group>"; };
 		071423A12534CFEE00E7487A /* PhoneCaller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneCaller.m; sourceTree = "<group>"; };
+		0756115C2559A0E100EA8A41 /* Lesson4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson4ViewController.swift; sourceTree = "<group>"; };
+		075611692559A45D00EA8A41 /* DemoOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoOperations.swift; sourceTree = "<group>"; };
 		076C06942550636B006B0670 /* Lesson3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson3ViewController.h; sourceTree = "<group>"; };
 		076C06952550636B006B0670 /* Lesson3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson3ViewController.m; sourceTree = "<group>"; };
 		076C069D255063E6006B0670 /* Lesson2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson2ViewController.h; sourceTree = "<group>"; };
 		076C069E255063E6006B0670 /* Lesson2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson2ViewController.m; sourceTree = "<group>"; };
-		076C06BD25506615006B0670 /* Lesson4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson4ViewController.h; sourceTree = "<group>"; };
-		076C06BE25506615006B0670 /* Lesson4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lesson4ViewController.m; sourceTree = "<group>"; };
 		0787B640253DF4D100DF56E4 /* DemoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
 		0787B641253DF4D100DF56E4 /* DemoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
 		0787B64C253E069B00DF56E4 /* DemoModel+Display.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoModel+Display.h"; sourceTree = "<group>"; };
@@ -220,8 +221,8 @@
 		076C06BC25506608006B0670 /* Lesson4 */ = {
 			isa = PBXGroup;
 			children = (
-				076C06BD25506615006B0670 /* Lesson4ViewController.h */,
-				076C06BE25506615006B0670 /* Lesson4ViewController.m */,
+				0756115C2559A0E100EA8A41 /* Lesson4ViewController.swift */,
+				075611692559A45D00EA8A41 /* DemoOperations.swift */,
 			);
 			path = Lesson4;
 			sourceTree = "<group>";
@@ -356,12 +357,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0756115E2559A0E100EA8A41 /* Lesson4ViewController.swift in Sources */,
 				0787B642253DF4D100DF56E4 /* DemoModel.m in Sources */,
 				071423A22534CFEE00E7487A /* PhoneCaller.m in Sources */,
-				076C06BF25506615006B0670 /* Lesson4ViewController.m in Sources */,
 				07A795142549C5C2006F4FB4 /* SwiftCode.swift in Sources */,
 				0714236D2534C38A00E7487A /* ViewController.m in Sources */,
 				076C06962550636B006B0670 /* Lesson3ViewController.m in Sources */,
+				0756116A2559A45D00EA8A41 /* DemoOperations.swift in Sources */,
 				071423672534C38A00E7487A /* AppDelegate.m in Sources */,
 				0787B64E253E069B00DF56E4 /* DemoModel+Display.m in Sources */,
 				076C069F255063E6006B0670 /* Lesson2ViewController.m in Sources */,
