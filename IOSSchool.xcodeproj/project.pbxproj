@@ -26,6 +26,8 @@
 		0787B654253E079800DF56E4 /* NSString+Display.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787B653253E079800DF56E4 /* NSString+Display.m */; };
 		0787B65E253E08C700DF56E4 /* PromoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787B65D253E08C700DF56E4 /* PromoModel.m */; };
 		07A795142549C5C2006F4FB4 /* SwiftCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A795132549C5C2006F4FB4 /* SwiftCode.swift */; };
+		07E7B6DD256816C300B09599 /* Lesson5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7B6D52568148500B09599 /* Lesson5ViewController.swift */; };
+		07E7B6E2256816F000B09599 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7B6E1256816F000B09599 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		0787B65D253E08C700DF56E4 /* PromoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromoModel.m; sourceTree = "<group>"; };
 		07A795122549C5C2006F4FB4 /* IOSSchool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSSchool-Bridging-Header.h"; sourceTree = "<group>"; };
 		07A795132549C5C2006F4FB4 /* SwiftCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCode.swift; sourceTree = "<group>"; };
+		07E7B6D52568148500B09599 /* Lesson5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson5ViewController.swift; sourceTree = "<group>"; };
+		07E7B6E1256816F000B09599 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		07F9A6842540A877006C435B /* StringProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +143,7 @@
 				076C0690255062F3006B0670 /* Lesson2 */,
 				076C068F255062EC006B0670 /* Lesson3 */,
 				076C06BC25506608006B0670 /* Lesson4 */,
+				07E7B6D42568146100B09599 /* Lesson5 */,
 				0714236E2534C38A00E7487A /* Main.storyboard */,
 				071423712534C38A00E7487A /* Assets.xcassets */,
 			);
@@ -225,6 +230,15 @@
 				075611692559A45D00EA8A41 /* DemoOperations.swift */,
 			);
 			path = Lesson4;
+			sourceTree = "<group>";
+		};
+		07E7B6D42568146100B09599 /* Lesson5 */ = {
+			isa = PBXGroup;
+			children = (
+				07E7B6D52568148500B09599 /* Lesson5ViewController.swift */,
+				07E7B6E1256816F000B09599 /* CustomView.swift */,
+			);
+			path = Lesson5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0756115E2559A0E100EA8A41 /* Lesson4ViewController.swift in Sources */,
+				07E7B6E2256816F000B09599 /* CustomView.swift in Sources */,
 				0787B642253DF4D100DF56E4 /* DemoModel.m in Sources */,
 				071423A22534CFEE00E7487A /* PhoneCaller.m in Sources */,
 				07A795142549C5C2006F4FB4 /* SwiftCode.swift in Sources */,
@@ -369,6 +384,7 @@
 				076C069F255063E6006B0670 /* Lesson2ViewController.m in Sources */,
 				071423782534C38A00E7487A /* main.m in Sources */,
 				0787B65E253E08C700DF56E4 /* PromoModel.m in Sources */,
+				07E7B6DD256816C300B09599 /* Lesson5ViewController.swift in Sources */,
 				0787B654253E079800DF56E4 /* NSString+Display.m in Sources */,
 				0714236A2534C38A00E7487A /* SceneDelegate.m in Sources */,
 			);
