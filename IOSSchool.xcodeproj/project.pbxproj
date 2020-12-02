@@ -17,6 +17,10 @@
 		071423822534C38A00E7487A /* Demo1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 071423812534C38A00E7487A /* Demo1Tests.m */; };
 		0714238D2534C38A00E7487A /* Demo1UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0714238C2534C38A00E7487A /* Demo1UITests.m */; };
 		071423A22534CFEE00E7487A /* PhoneCaller.m in Sources */ = {isa = PBXBuildFile; fileRef = 071423A12534CFEE00E7487A /* PhoneCaller.m */; };
+		074256522577F45F000C3B77 /* Lesson6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074256512577F45F000C3B77 /* Lesson6ViewController.swift */; };
+		0742565A2577FB50000C3B77 /* Lesson6TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074256592577FB50000C3B77 /* Lesson6TableViewCell.swift */; };
+		0742565F2577FC97000C3B77 /* Lesson6.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0742565E2577FC97000C3B77 /* Lesson6.storyboard */; };
+		0742566425780750000C3B77 /* Lesson6DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0742566325780750000C3B77 /* Lesson6DetailsViewController.swift */; };
 		0756115E2559A0E100EA8A41 /* Lesson4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0756115C2559A0E100EA8A41 /* Lesson4ViewController.swift */; };
 		0756116A2559A45D00EA8A41 /* DemoOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075611692559A45D00EA8A41 /* DemoOperations.swift */; };
 		076C06962550636B006B0670 /* Lesson3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 076C06952550636B006B0670 /* Lesson3ViewController.m */; };
@@ -68,6 +72,10 @@
 		0714238E2534C38A00E7487A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		071423A02534CFEE00E7487A /* PhoneCaller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneCaller.h; sourceTree = "<group>"; };
 		071423A12534CFEE00E7487A /* PhoneCaller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneCaller.m; sourceTree = "<group>"; };
+		074256512577F45F000C3B77 /* Lesson6ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson6ViewController.swift; sourceTree = "<group>"; };
+		074256592577FB50000C3B77 /* Lesson6TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson6TableViewCell.swift; sourceTree = "<group>"; };
+		0742565E2577FC97000C3B77 /* Lesson6.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson6.storyboard; sourceTree = "<group>"; };
+		0742566325780750000C3B77 /* Lesson6DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson6DetailsViewController.swift; sourceTree = "<group>"; };
 		0756115C2559A0E100EA8A41 /* Lesson4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson4ViewController.swift; sourceTree = "<group>"; };
 		075611692559A45D00EA8A41 /* DemoOperations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoOperations.swift; sourceTree = "<group>"; };
 		076C06942550636B006B0670 /* Lesson3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lesson3ViewController.h; sourceTree = "<group>"; };
@@ -144,6 +152,7 @@
 				076C068F255062EC006B0670 /* Lesson3 */,
 				076C06BC25506608006B0670 /* Lesson4 */,
 				07E7B6D42568146100B09599 /* Lesson5 */,
+				074256502577F423000C3B77 /* Lesson6 */,
 				0714236E2534C38A00E7487A /* Main.storyboard */,
 				071423712534C38A00E7487A /* Assets.xcassets */,
 			);
@@ -166,6 +175,17 @@
 				0714238E2534C38A00E7487A /* Info.plist */,
 			);
 			path = IOSSchoolUITests;
+			sourceTree = "<group>";
+		};
+		074256502577F423000C3B77 /* Lesson6 */ = {
+			isa = PBXGroup;
+			children = (
+				074256512577F45F000C3B77 /* Lesson6ViewController.swift */,
+				0742566325780750000C3B77 /* Lesson6DetailsViewController.swift */,
+				074256592577FB50000C3B77 /* Lesson6TableViewCell.swift */,
+				0742565E2577FC97000C3B77 /* Lesson6.storyboard */,
+			);
+			path = Lesson6;
 			sourceTree = "<group>";
 		};
 		076C068E255062E1006B0670 /* Lesson1 */ = {
@@ -347,6 +367,7 @@
 				071423752534C38A00E7487A /* LaunchScreen.storyboard in Resources */,
 				071423722534C38A00E7487A /* Assets.xcassets in Resources */,
 				071423702534C38A00E7487A /* Main.storyboard in Resources */,
+				0742565F2577FC97000C3B77 /* Lesson6.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,8 +394,10 @@
 			files = (
 				0756115E2559A0E100EA8A41 /* Lesson4ViewController.swift in Sources */,
 				07E7B6E2256816F000B09599 /* CustomView.swift in Sources */,
+				0742565A2577FB50000C3B77 /* Lesson6TableViewCell.swift in Sources */,
 				0787B642253DF4D100DF56E4 /* DemoModel.m in Sources */,
 				071423A22534CFEE00E7487A /* PhoneCaller.m in Sources */,
+				074256522577F45F000C3B77 /* Lesson6ViewController.swift in Sources */,
 				07A795142549C5C2006F4FB4 /* SwiftCode.swift in Sources */,
 				0714236D2534C38A00E7487A /* ViewController.m in Sources */,
 				076C06962550636B006B0670 /* Lesson3ViewController.m in Sources */,
@@ -383,6 +406,7 @@
 				0787B64E253E069B00DF56E4 /* DemoModel+Display.m in Sources */,
 				076C069F255063E6006B0670 /* Lesson2ViewController.m in Sources */,
 				071423782534C38A00E7487A /* main.m in Sources */,
+				0742566425780750000C3B77 /* Lesson6DetailsViewController.swift in Sources */,
 				0787B65E253E08C700DF56E4 /* PromoModel.m in Sources */,
 				07E7B6DD256816C300B09599 /* Lesson5ViewController.swift in Sources */,
 				0787B654253E079800DF56E4 /* NSString+Display.m in Sources */,

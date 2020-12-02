@@ -25,6 +25,16 @@
             </objects>
             <point key="canvasLocation" x="-1301" y="121"/>
         </scene>
+        <!--Lesson6ViewController-->
+        <scene sceneID="Edb-9M-Bku">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Lesson6" referencedIdentifier="Lesson6ViewController" id="O6M-GA-4HY" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gIA-ka-9JQ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0y-kL-Pnk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-599" y="-250"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="Uza-qv-jy4">
             <objects>
@@ -38,7 +48,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="FAA-Fc-j6f" kind="show" id="k63-2N-1rk"/>
+                                    <segue destination="FAA-Fc-j6f" kind="show" id="cb9-Jm-jSj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfc-QF-82m">
+                                <rect key="frame" x="127" y="220" width="142" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Lesson6 (TableView)"/>
+                                <connections>
+                                    <segue destination="O6M-GA-4HY" kind="show" id="HNW-IP-Uri"/>
                                 </connections>
                             </button>
                         </subviews>
