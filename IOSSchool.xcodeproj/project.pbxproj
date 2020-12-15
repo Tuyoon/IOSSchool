@@ -34,6 +34,10 @@
 		0787B654253E079800DF56E4 /* NSString+Display.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787B653253E079800DF56E4 /* NSString+Display.m */; };
 		0787B65E253E08C700DF56E4 /* PromoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0787B65D253E08C700DF56E4 /* PromoModel.m */; };
 		07A795142549C5C2006F4FB4 /* SwiftCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A795132549C5C2006F4FB4 /* SwiftCode.swift */; };
+		07DAE9B22587C14C005EC51B /* Lesson8Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DAE9B12587C14C005EC51B /* Lesson8Classes.swift */; };
+		07DAE9B72587C162005EC51B /* Lesson8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DAE9B62587C162005EC51B /* Lesson8ViewController.swift */; };
+		07DAE9C22587C23C005EC51B /* Lesson8.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07DAE9C12587C23C005EC51B /* Lesson8.storyboard */; };
+		07DAE9D82587D8A2005EC51B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07DAE9DA2587D8A2005EC51B /* Localizable.strings */; };
 		07E7B6DD256816C300B09599 /* Lesson5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7B6D52568148500B09599 /* Lesson5ViewController.swift */; };
 		07E7B6E2256816F000B09599 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07E7B6E1256816F000B09599 /* CustomView.swift */; };
 /* End PBXBuildFile section */
@@ -102,6 +106,14 @@
 		0787B65D253E08C700DF56E4 /* PromoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromoModel.m; sourceTree = "<group>"; };
 		07A795122549C5C2006F4FB4 /* IOSSchool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOSSchool-Bridging-Header.h"; sourceTree = "<group>"; };
 		07A795132549C5C2006F4FB4 /* SwiftCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCode.swift; sourceTree = "<group>"; };
+		07DAE9B12587C14C005EC51B /* Lesson8Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson8Classes.swift; sourceTree = "<group>"; };
+		07DAE9B62587C162005EC51B /* Lesson8ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson8ViewController.swift; sourceTree = "<group>"; };
+		07DAE9C12587C23C005EC51B /* Lesson8.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Lesson8.storyboard; sourceTree = "<group>"; };
+		07DAE9CA2587D72D005EC51B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		07DAE9D92587D8A2005EC51B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		07DAE9DB2587D8A7005EC51B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		07DAE9FD25888BEA005EC51B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		07DAE9FE25888BEC005EC51B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		07E7B6D52568148500B09599 /* Lesson5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson5ViewController.swift; sourceTree = "<group>"; };
 		07E7B6E1256816F000B09599 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		07F9A6842540A877006C435B /* StringProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringProtocol.h; sourceTree = "<group>"; };
@@ -163,8 +175,10 @@
 				07E7B6D42568146100B09599 /* Lesson5 */,
 				074256502577F423000C3B77 /* Lesson6 */,
 				0746D059258276B400EEDA27 /* Lesson7 */,
+				07DAE9B02587C13A005EC51B /* Lesson8 */,
 				0714236E2534C38A00E7487A /* Main.storyboard */,
 				071423712534C38A00E7487A /* Assets.xcassets */,
+				07DAE9DA2587D8A2005EC51B /* Localizable.strings */,
 			);
 			path = IOSSchool;
 			sourceTree = "<group>";
@@ -274,6 +288,16 @@
 			path = Lesson4;
 			sourceTree = "<group>";
 		};
+		07DAE9B02587C13A005EC51B /* Lesson8 */ = {
+			isa = PBXGroup;
+			children = (
+				07DAE9B62587C162005EC51B /* Lesson8ViewController.swift */,
+				07DAE9B12587C14C005EC51B /* Lesson8Classes.swift */,
+				07DAE9C12587C23C005EC51B /* Lesson8.storyboard */,
+			);
+			path = Lesson8;
+			sourceTree = "<group>";
+		};
 		07E7B6D42568146100B09599 /* Lesson5 */ = {
 			isa = PBXGroup;
 			children = (
@@ -368,6 +392,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 071423592534C38A00E7487A;
 			productRefGroup = 071423632534C38A00E7487A /* Products */;
@@ -388,9 +413,11 @@
 			files = (
 				071423752534C38A00E7487A /* LaunchScreen.storyboard in Resources */,
 				0746D0712582894200EEDA27 /* Lesson7.storyboard in Resources */,
+				07DAE9D82587D8A2005EC51B /* Localizable.strings in Resources */,
 				071423722534C38A00E7487A /* Assets.xcassets in Resources */,
 				071423702534C38A00E7487A /* Main.storyboard in Resources */,
 				0742565F2577FC97000C3B77 /* Lesson6.storyboard in Resources */,
+				07DAE9C22587C23C005EC51B /* Lesson8.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07DAE9B22587C14C005EC51B /* Lesson8Classes.swift in Sources */,
 				0746D05B258276D300EEDA27 /* Lesson7ViewController.swift in Sources */,
 				0756115E2559A0E100EA8A41 /* Lesson4ViewController.swift in Sources */,
 				07E7B6E2256816F000B09599 /* CustomView.swift in Sources */,
@@ -434,6 +462,7 @@
 				071423782534C38A00E7487A /* main.m in Sources */,
 				0742566425780750000C3B77 /* Lesson6DetailsViewController.swift in Sources */,
 				0787B65E253E08C700DF56E4 /* PromoModel.m in Sources */,
+				07DAE9B72587C162005EC51B /* Lesson8ViewController.swift in Sources */,
 				07E7B6DD256816C300B09599 /* Lesson5ViewController.swift in Sources */,
 				0787B654253E079800DF56E4 /* NSString+Display.m in Sources */,
 				0714236A2534C38A00E7487A /* SceneDelegate.m in Sources */,
@@ -476,6 +505,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				0714236F2534C38A00E7487A /* Base */,
+				07DAE9FD25888BEA005EC51B /* en */,
+				07DAE9FE25888BEC005EC51B /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -484,8 +515,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				071423742534C38A00E7487A /* Base */,
+				07DAE9CA2587D72D005EC51B /* ru */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		07DAE9DA2587D8A2005EC51B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07DAE9D92587D8A2005EC51B /* en */,
+				07DAE9DB2587D8A7005EC51B /* ru */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -495,6 +536,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -554,6 +596,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

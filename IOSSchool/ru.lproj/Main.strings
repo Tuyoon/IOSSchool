@@ -1,0 +1,36 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "2i0-Tm-rgy"; */
+"2i0-Tm-rgy.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "Root"; ObjectID = "8mG-du-t5X"; */
+"8mG-du-t5X.title" = "Root";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "BSR-WB-DKt"; */
+"BSR-WB-DKt.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Lesson8"; ObjectID = "C4b-ko-Eic"; */
+"C4b-ko-Eic.normalTitle" = "Урок 8";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "D5v-kz-RN7"; */
+"D5v-kz-RN7.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Lesson6 (TableView)"; ObjectID = "Xfc-QF-82m"; */
+"Xfc-QF-82m.normalTitle" = "Урок 6 (TableView)";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "b8g-KX-MVT"; */
+"b8g-KX-MVT.normalTitle" = "Отмена";
+
+/* Class = "UINavigationItem"; title = "Lesson 5"; ObjectID = "c4e-JA-9dS"; */
+"c4e-JA-9dS.title" = "Урок 5";
+
+/* Class = "UIButton"; normalTitle = "Load"; ObjectID = "cBl-pJ-ber"; */
+"cBl-pJ-ber.normalTitle" = "Загрузить";
+
+/* Class = "UIBarButtonItem"; title = "L1"; ObjectID = "hys-5u-vsZ"; */
+"hys-5u-vsZ.title" = "L1";
+
+/* Class = "UIButton"; normalTitle = "Lesson7 (для зачета)"; ObjectID = "sFW-Mn-LC4"; */
+"sFW-Mn-LC4.normalTitle" = "Урок 7 (для зачета)";
+
+/* Class = "UITextField"; placeholder = "password"; ObjectID = "tsH-ri-Mec"; */
+"tsH-ri-Mec.placeholder" = "пароль";

@@ -67,6 +67,14 @@
                                     <segue destination="i4U-k6-dQk" kind="show" id="vgH-oE-wdi"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8g-mA-vSg">
+                                <rect key="frame" x="169" y="296" width="58" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Lesson8"/>
+                                <connections>
+                                    <segue destination="5r3-tN-Nqm" kind="show" id="ZdY-jv-QY4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8Bh-wn-sDY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -88,6 +96,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lPi-MX-g6V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-777" y="498"/>
+        </scene>
+        <!--Lesson8-->
+        <scene sceneID="Sih-z1-Rnj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Lesson8" id="5r3-tN-Nqm" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="DUx-D0-GPL"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BvS-rq-i29" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-546" y="523"/>
         </scene>
         <!--Lesson3 View Controller-->
         <scene sceneID="tne-QT-ifu">
